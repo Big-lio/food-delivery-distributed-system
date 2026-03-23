@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/label_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/latitude_prompt"
+        android:layout_marginTop="16dp"/>
+    <EditText
+        android:id="@+id/editText_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:hint="@string/latitude"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/label_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/longitude"
+        android:layout_marginTop="16dp"/>
+    <EditText
+        android:id="@+id/editText_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:hint="@string/longitude"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_category"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_prompt"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:rating="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price_prompt"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:text="@string/low" />
+    <CheckBox
+        android:id="@+id/checkbox_price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:text="@string/mid" />
+    <CheckBox
+        android:id="@+id/checkbox_price3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:text="@string/high" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

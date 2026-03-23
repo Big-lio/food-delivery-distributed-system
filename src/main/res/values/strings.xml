@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">fooddelivery</string>
+    <string name="prompt_category">Select food category</string>
+    <string name="rating_prompt">Select minimum rating</string>
+    <string name="price_prompt">Select price range</string>
+    <string name="latitude_prompt">Enter your latitude:</string>
+    <string name="longitude_prompt">Enter your longitude:</string>
+    <string name="low">$ : for average price up to 5$</string>
+    <string name="mid">$$ : for average price up to 15$</string>
+    <string name="high">$$$ : for average price more than 15$</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="search">SEARCH</string>
+    <string name="add">Add</string>
+    <string name="price">$0.00</string>
+    <string name="productName">Product Name</string>
+    <string name="storeName">Store Name</string>
+    <string name="category">Category</string>
+    <string name="rating">Rating</string>
+    <string name="priceRange">Price Range</string>
+    <string name="products">Products</string>
+    <string name="viewCart">View Cart</string>
+    <string name="back">Back</string>
+    <string name="yourCart">Your Cart</string>
+    <string name="total">Total: $0.00</string>
+    <string name="confirm">Confirm Order</string>
+</resources>
