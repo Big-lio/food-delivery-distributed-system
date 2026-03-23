@@ -1,0 +1,16 @@
+javac -cp ".;com/example/fooddelivery/libs/jackson-core-2.15.0.jar;com/example/fooddelivery/libs/jackson-databind-2.15.0.jar;com/example/fooddelivery/libs/jackson-annotations-2.15.0.jar" com/example/fooddelivery/model/*.java com/example/fooddelivery/*.java
+
+java -cp ".;com/example/fooddelivery/libs/jackson-core-2.15.0.jar;com/example/fooddelivery/libs/jackson-databind-2.15.0.jar;com/example/fooddelivery/libs/jackson-annotations-2.15.0.jar" com.example.fooddelivery.WorkerNode 6000
+
+java -cp ".;com/example/fooddelivery/libs/jackson-core-2.15.0.jar;com/example/fooddelivery/libs/jackson-databind-2.15.0.jar;com/example/fooddelivery/libs/jackson-annotations-2.15.0.jar" com.example.fooddelivery.WorkerNode 6001
+
+java -cp ".;com/example/fooddelivery/libs/jackson-core-2.15.0.jar;com/example/fooddelivery/libs/jackson-databind-2.15.0.jar;com/example/fooddelivery/libs/jackson-annotations-2.15.0.jar" com.example.fooddelivery.MasterServer 5000 127.0.0.1 6000 127.0.0.1 6001
+
+java -cp ".;com/example/fooddelivery/libs/jackson-core-2.15.0.jar;com/example/fooddelivery/libs/jackson-databind-2.15.0.jar;com/example/fooddelivery/libs/jackson-annotations-2.15.0.jar" com.example.fooddelivery.ReducerServer
+
+java -cp ".;com/example/fooddelivery/libs/jackson-core-2.15.0.jar;com/example/fooddelivery/libs/jackson-databind-2.15.0.jar;com/example/fooddelivery/libs/jackson-annotations-2.15.0.jar" com.example.fooddelivery.Manager
+
+java -cp ".;com/example/fooddelivery/libs/jackson-core-2.15.0.jar;com/example/fooddelivery/libs/jackson-databind-2.15.0.jar;com/example/fooddelivery/libs/jackson-annotations-2.15.0.jar" com.example.fooddelivery.ClientSearchApp
+
+
+C:\Users\stavr\Documents\com\example\fooddelivery\store1.json

@@ -1,0 +1,24 @@
+{
+    "StoreName": "Pizza Hat",
+    "Latitude": 37.981234,
+    "Longitude": 23.728111,
+    "FoodCategory": "pizzeria",
+    "Stars": 4,
+    "NoOfVotes": 30,
+    "StoreLogo": "/usr/bin/images/pizzafun.png",
+    "Products": [
+      {
+        "ProductName": "pepperoni",
+        "ProductType": "pizza",
+        "AvailableAmount": 4000,
+        "Price": 10.5
+      },
+      {
+        "ProductName": "greek Salad",
+        "ProductType": "salad",
+        "AvailableAmount": 200,
+        "Price": 6.0
+      }
+    ]
+}
+  

@@ -1,0 +1,35 @@
+{
+    "StoreName": "Burger House",
+    "Latitude": 38.005789,
+    "Longitude": 23.745012,
+    "FoodCategory": "burger",
+    "Stars": 4,
+    "NoOfVotes": 27,
+    "StoreLogo": "/usr/bin/images/burgerhouse_logo.png",
+    "Products": [
+      {
+        "ProductName": "Classic Burger",
+        "ProductType": "burger",
+        "AvailableAmount": 2500,
+        "Price": 6.5
+      },
+      {
+        "ProductName": "Double Cheeseburger",
+        "ProductType": "burger",
+        "AvailableAmount": 1200,
+        "Price": 7.5
+      },
+      {
+        "ProductName": "Fries",
+        "ProductType": "side",
+        "AvailableAmount": 3000,
+        "Price": 3
+      },
+      {
+        "ProductName": "Cola",
+        "ProductType": "drink",
+        "AvailableAmount": 500,
+        "Price": 1.5
+      }
+    ]
+  }

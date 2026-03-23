@@ -1,0 +1,23 @@
+{
+  "StoreName": "Sushi Wave",
+  "Latitude": 37.975321,
+  "Longitude": 23.737654,
+  "FoodCategory": "sushi",
+  "Stars": 4,
+  "NoOfVotes": 25,
+  "StoreLogo": "/usr/bin/images/sushiwave.png",
+  "Products": [
+    {
+      "ProductName": "salmon roll",
+      "ProductType": "sushi",
+      "AvailableAmount": 1000,
+      "Price": 11.5
+    },
+    {
+      "ProductName": "edamame",
+      "ProductType": "appetizer",
+      "AvailableAmount": 300,
+      "Price": 4.5
+    }
+  ]
+}
